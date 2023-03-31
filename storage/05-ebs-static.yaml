@@ -1,4 +1,4 @@
-apiVersion: storage.k8s.io/v1
+apiVersion: storage.k8s.io/v1 # static provision: ebs ,pv ,pvc , sc (storage class)
 kind: StorageClass
 metadata:
   name: manual
